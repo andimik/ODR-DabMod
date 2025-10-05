@@ -44,8 +44,7 @@ typedef DWORD32 uint32_t;
 
 #include <time.h>
 
-//definitions des structures des champs du ETI(NI, G703)
-
+// Definitions of the structures for the fields of ETI (NI, G703)
 
 struct eti_SYNC {
     uint32_t ERR:8;
